@@ -1,0 +1,16 @@
+header {
+    min-height: 20vh;
+    max-height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    height: 13vh;
+    width: auto; 
+}
+
+.logoWrapper {
+    flex-grow: 1;
+}
