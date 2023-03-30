@@ -20,6 +20,10 @@ body {
   min-height: 100vh;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
