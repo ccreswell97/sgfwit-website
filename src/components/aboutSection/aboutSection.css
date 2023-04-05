@@ -1,0 +1,7 @@
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8vh 15vw;
+    border-radius: 25px;
+}

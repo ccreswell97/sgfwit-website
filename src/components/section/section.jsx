@@ -3,7 +3,6 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 
 import './section.css'
-import '../../assets/WIT-banner-logo.png'
 
 export default function Section({color, height}) {
   return (
