@@ -9,7 +9,7 @@ import Root from "./routes/root";
 import About from './routes/about';
 import Events from './routes/events';
 import Contact from './routes/contact';
-import FAQ from './routes/faq';
+import Sponsor from './routes/sponsor';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const router = createBrowserRouter([
@@ -30,8 +30,8 @@ const router = createBrowserRouter([
     element: <Contact />,
   },
   {
-    path: "/faq",
-    element: <FAQ />,
+    path: "/sponsor",
+    element: <Sponsor />,
   },
 
 ]);

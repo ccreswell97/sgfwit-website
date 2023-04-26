@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8vh 20vw;
-    border-radius: 25px;
+    padding: 8vh 15vw;
     min-height: 50vh;
+
+    p {
+        margin-bottom: 10px;
+    }
 }

@@ -1,16 +1,42 @@
-header {
-    min-height: 20vh;
-    max-height: 20vh;
+.header {
+    height: 85vh;
+    background-color: #003847;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    
+    .logoWrapper {
+        flex-grow: 1;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .menuLinks {
+        margin-top: 50px;
+        margin-right: 50px;
+
+        button {
+            margin-right: 10px;
+        }
+    }
+
+    .main-content {
+        min-height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 15vw 5vh 15vw;
+        background-image: url('../../assets/svg-shape.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+
+        p {
+            color: white;
+        }
+    }
 }
 
 img {
     display: flex;
     height: 13vh;
     width: auto; 
-}
-
-.logoWrapper {
-    flex-grow: 1;
 }

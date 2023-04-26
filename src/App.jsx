@@ -9,16 +9,13 @@ function App() {
   return (
       <div className='App'>
         <Header/>
-        <Box className='main-content'>
-          <Typography fontSize={50} fontWeight={300}>
-            Elevating, engaging, and empowering local women and gender minorities working in technology.
-          </Typography>
+        <Box className='about-section' flexDirection={"column"} sx={{backgroundColor: 'white', minHeight: '70vh'}}>
+            <Typography fontSize={42} fontWeight={600}>According to a survey by Women Tech Network, women hold only 28% of jobs in the tech industry</Typography>
+            <Typography fontSize={30} fontWeight={300}>This lack of representation can have significant consequences, including limited opportunities for women in the industry, a lack of diverse perspectives and ideas, and a perpetuation of gender biases and stereotypes. That’s why we are committed to addressing these issues and promoting greater diversity and inclusion in tech, as well as fostering a sense of community and empowerment across the board.</Typography>
         </Box>
-        <Box className='about-section' flexDirection={"column"} sx={{backgroundColor: '#F8DED2', minHeight: '70vh'}}>
-            <Typography fontSize={50} fontWeight={500}>Diversity and inclusivity are essential for innovation and progress in tech.</Typography>
-            <Typography fontSize={36} fontWeight={300}>That's why we are committed to promoting gender diversity and equality in the industry. As a group, we are committed to creating a community-driven experience for our members. We encourage active participation and engagement, and we offer opportunities for members to contribute their expertise and knowledge to our community.</Typography>
-        </Box>
+        <Section color={'secondary'} height={'75vh'}/>
         <Section color={'white'} height={'75vh'}/>
+        <Section color={'primary'} height={'25vh'}/>
       </div>
   )
 }

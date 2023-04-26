@@ -1,6 +1,6 @@
 import Header from "../components/header/header";
 
-export default function FAQ() {
+export default function Sponsor() {
     return (
         <div>
             <Header/>
