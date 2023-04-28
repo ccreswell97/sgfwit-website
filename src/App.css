@@ -6,3 +6,33 @@
   text-align: center;
   background-color: white;
 }
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8vh 15vw;
+  min-height: 50vh;
+
+  p {
+      margin-bottom: 10px;
+  }
+}
+
+.event-section {
+  padding-right: 10vw;
+  padding-left: 10vw;
+
+  .title {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .card-wrapper {
+    display: flex;
+    
+    :first-child {
+      margin-left: 0;
+    }
+  }
+}
