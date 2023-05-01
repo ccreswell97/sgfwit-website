@@ -11,6 +11,7 @@ import Events from './routes/events';
 import Contact from './routes/contact';
 import Sponsor from './routes/sponsor';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Leadership from './routes/leadership';
 
 const router = createBrowserRouter([
   {
@@ -19,21 +20,24 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <About />,
+    element: <About/>,
   },
   {
     path: "/events",
-    element: <Events />,
+    element: <Events/>,
   },
   {
     path: "/contact",
-    element: <Contact />,
+    element: <Contact/>,
   },
   {
     path: "/sponsor",
-    element: <Sponsor />,
+    element: <Sponsor/>,
   },
-
+  {
+    path: "/leadership",
+    element: <Leadership/>
+  }
 ]);
 
 const theme = createTheme({

@@ -1,12 +1,11 @@
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navBar/navBar";
-import SponsorSection from "../components/sponsorSection/sponsorSection";
 
-export default function Sponsor() {
+export default function Leadership() {
   return (
     <div>
       <Navbar/>
-      <SponsorSection/>
+      <h1>Leadership</h1>
       <Footer/>
     </div>
   );

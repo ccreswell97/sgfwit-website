@@ -1,21 +1,21 @@
 .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url('../../assets/ffflux.svg');
-    
-    .logoWrapper {
-        flex-grow: 1;
-        margin-top: 3vh;
-        margin-left: 2vw;
-        margin-bottom: 3vh;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url('../../assets/ffflux.svg');
+  
+  .logoWrapper {
+    flex-grow: 1;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    margin-bottom: 3vh;
+  }
 
-    .menuLinks {
-        margin-top: 6vh;
-        margin-right: 3vw;
+  .menuLinks {
+    margin-top: 6vh;
+    margin-right: 3vw;
 
-        button {
-            margin-right: 10px;
-        }
+    button {
+      margin-right: 10px;
     }
+  }
 }

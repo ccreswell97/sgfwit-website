@@ -2,9 +2,9 @@ import './App.css'
 
 import Header from './components/header/header';
 import { Box, Typography } from '@mui/material';
-import Section from './components/section/section';
 import EventCard from './components/eventCard/eventCard';
 import SponsorSection from './components/sponsorSection/sponsorSection';
+import Footer from './components/footer/footer';
 
 function App() {
 
@@ -27,7 +27,7 @@ function App() {
     {
       id: 4,
       title: 'Project Share & Tells',
-      content: 'Hear from different individuals as they talk about the details of a project that they recently completed. This could be a work or personal project.'
+      content: 'Hear from different individuals as they talk about the details of a project that they recently completed. These include work and personal projects.'
     },
   ];
 
@@ -47,7 +47,7 @@ function App() {
           </Box>
         </Box>
         <SponsorSection/>
-        <Section color={'primary'} height={'25vh'}/>
+        <Footer/>
       </div>
   )
 }
