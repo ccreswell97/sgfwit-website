@@ -1,10 +1,10 @@
 import { Typography } from "@mui/material";
-import Header from "../components/header/header";
+import Navbar from "../components/navBar/navBar";
 
 export default function Contact() {
     return (
         <div>
-            <Header/>
+            <Navbar/>
             <Typography fontSize={50} fontWeight={500}>CONTACT</Typography>
             <Typography fontSize={30} fontWeight={300}>
                 Interested in getting involved?

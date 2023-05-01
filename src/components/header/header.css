@@ -1,12 +1,12 @@
 .header {
-    height: 85vh;
+    height: 75vh;
     /* background-color: #003847; */
     background-image: url('../../assets/ffflux.svg');
     display: flex;
     flex-wrap: wrap;
 
     .main-content {
-        min-height: 60vh;
+        min-height: 50vh;
         display: flex;
         justify-content: center;
         align-items: center;

@@ -1,10 +1,11 @@
-import Header from "../components/header/header";
+import Navbar from "../components/navBar/navBar";
+import SponsorSection from "../components/sponsorSection/sponsorSection";
 
 export default function Sponsor() {
     return (
         <div>
-            <Header/>
-            <h1>Frequently Asked Questions</h1>
+            <Navbar/>
+            <SponsorSection/>
         </div>
     );
   }

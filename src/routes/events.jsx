@@ -1,9 +1,9 @@
-import Header from "../components/header/header";
+import Navbar from "../components/navBar/navBar";
 
 export default function Events() {
     return (
         <div>
-            <Header/>
+            <Navbar/>
             <h1>Next Event</h1>
         </div>
     );

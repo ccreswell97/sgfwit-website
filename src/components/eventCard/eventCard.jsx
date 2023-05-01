@@ -2,9 +2,9 @@ import '../eventCard/eventCard.css'
 
 import { Card, CardContent, Typography } from '@mui/material';
 
-export default function EventCard({title, content}) {
+export default function EventCard({title, content, id}) {
   return (
-    <Card className='event-card'>
+    <Card className='event-card' id={id}>
         <CardContent>
             <Typography fontSize={26} fontWeight={600}>
                 {title}

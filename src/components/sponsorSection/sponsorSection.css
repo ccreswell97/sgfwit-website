@@ -1,0 +1,29 @@
+.sponsors-section {
+  .title {
+    padding-top: 5vh;
+  }
+
+  .sponsors-logo-wrapper {
+    padding: 10vh;
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      width: 100%;
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        padding: 0 4vw;
+      }
+
+      .mwiLogo, .legacyBankLogo {
+        height: 20vh;
+      }
+    }
+  }
+}

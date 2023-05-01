@@ -1,5 +1,5 @@
-import Header from "../components/header/header";
 import AboutSection from "../components/aboutSection/aboutSection";
+import Navbar from "../components/navBar/navBar";
 
 export default function About() {
     const sectionData = [
@@ -22,7 +22,7 @@ export default function About() {
 
     return (
         <div>
-            <Header/>
+            <Navbar/>
             {sectionData.map(section => 
                 <AboutSection title={section.title} description={section.description} backgroundColor={section.backgroundColor}/>
             )}

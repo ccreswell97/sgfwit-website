@@ -1,16 +1,18 @@
 .navbar {
     display: flex;
     flex-wrap: wrap;
+    background-image: url('../../assets/ffflux.svg');
     
     .logoWrapper {
         flex-grow: 1;
-        margin-top: 30px;
-        margin-left: 30px;
+        margin-top: 3vh;
+        margin-left: 2vw;
+        margin-bottom: 3vh;
     }
 
     .menuLinks {
-        margin-top: 50px;
-        margin-right: 50px;
+        margin-top: 6vh;
+        margin-right: 3vw;
 
         button {
             margin-right: 10px;
