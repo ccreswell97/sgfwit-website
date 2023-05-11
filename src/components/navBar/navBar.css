@@ -3,13 +3,16 @@
   flex-wrap: wrap;
   background-image: url('../../assets/ffflux.svg');
   
-  .logoWrapper {
+  a {
     flex-grow: 1;
-    margin-top: 3vh;
-    margin-left: 2vw;
-    margin-bottom: 3vh;
-  }
 
+    .logoWrapper {
+      margin-top: 3vh;
+      margin-left: 2vw;
+      margin-bottom: 3vh;
+    }
+  }
+  
   .menuLinks {
     margin-top: 6vh;
     margin-right: 3vw;

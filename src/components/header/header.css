@@ -1,28 +1,28 @@
 .header {
-    height: 75vh;
-    /* background-color: #003847; */
-    background-image: url('../../assets/ffflux.svg');
+  height: 75vh;
+  /* background-color: #003847; */
+  background-image: url('../../assets/ffflux.svg');
+  display: flex;
+  flex-wrap: wrap;
+
+  .main-content {
+    min-height: 50vh;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15vw 5vh 15vw;
+    /* background-image: url('../../assets/svg-shape.svg');
+    background-repeat: no-repeat;
+    background-position: center; */
 
-    .main-content {
-        min-height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 15vw 5vh 15vw;
-        /* background-image: url('../../assets/svg-shape.svg');
-        background-repeat: no-repeat;
-        background-position: center; */
-
-        p {
-            color: white;
-        }
+    p {
+      color: white;
     }
+  }
 }
 
 img {
-    display: flex;
-    height: 13vh;
-    width: auto; 
+  display: flex;
+  height: 13vh;
+  width: auto; 
 }

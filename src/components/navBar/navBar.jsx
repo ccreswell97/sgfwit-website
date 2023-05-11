@@ -18,9 +18,11 @@ export default function Navbar() {
 
   return (
     <Box sx={{ flexGrow: 1 }} className='navbar'>
-      <div className='logoWrapper'>
-        <img src='src/assets/WIT-text-multi-white-logo.png'/>
-      </div>
+      <Link to={'/'}>
+        <div className='logoWrapper'>
+          <img src='src/assets/WIT-text-multi-white-logo.png'/>
+        </div>
+      </Link>
       <div className='menuLinks'>
         <Button
           id="about-button"

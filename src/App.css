@@ -35,4 +35,22 @@
       margin-left: 0;
     }
   }
+
+  @media only screen and (max-width: 1200px) {
+    padding-bottom: 5vh;
+
+    .title {
+      padding-bottom: 1vh;
+    }
+
+    .card-wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+      
+      .event-card {
+        margin: 4vw;
+        height: 30vh;
+      }
+    }
+  }
 }
